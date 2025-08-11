@@ -1,12 +1,60 @@
-# React + Vite
+🎮 Tic Tac TAI — Smart AI Tic Tac Toe with DeepSeek
+Tic Tac TAI is the world’s first Tic Tac Toe game powered by DeepSeek AI + React, built with fail-safe logic to make an unbeatable bot.
+Play against an AI that thinks, blocks, and wins like a pro.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🧠 Stack Used
+React (Vite) — Fast frontend development
 
-Currently, two official plugins are available:
+Tailwind CSS — Beautiful and responsive UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+DeepSeek via OpenRouter API — Smart AI move generation
 
-## Expanding the ESLint configuration
+Claude (fallback) — Backup AI in case DeepSeek fails
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+JavaScript logic — Fail-safe AI moves & game rules
+
+🎓 What You’ll Learn
+How to convert board state into an AI-readable prompt
+
+How to integrate DeepSeek LLM in a frontend app via OpenRouter API
+
+How to handle AI mistakes with custom fallback logic
+
+How to build a smart, unbeatable bot using JavaScript game logic
+
+🚀 Student Tasks
+Recreate the AI logic with your own rules
+
+Try Claude or Gemini instead of DeepSeek
+
+Build your own version with Minimax (optional)
+
+Add Easy/Hard mode toggle for different difficulty levels
+
+
+⚡ Getting Started
+1️⃣ Clone the repo
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/tic-tac-tai.git
+cd tic-tac-tai
+2️⃣ Install dependencies
+bash
+Copy
+Edit
+npm install
+3️⃣ Set up environment variables
+Create a .env file in the root and add your OpenRouter API Key:
+
+ini
+Copy
+Edit
+VITE_OPEN_ROUTER_API_KEY=your_api_key_here
+4️⃣ Run the app
+bash
+Copy
+Edit
+npm run dev
+
+
