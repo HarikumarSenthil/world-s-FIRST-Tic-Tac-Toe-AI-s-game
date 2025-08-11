@@ -34,10 +34,6 @@ Add Easy/Hard mode toggle for different difficulty levels
 
 ⚡ Getting Started
 1️⃣ Clone the repo
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/tic-tac-tai.git
 cd tic-tac-tai
 2️⃣ Install dependencies
 bash
